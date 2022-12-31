@@ -57,8 +57,9 @@ export const Banner = () => {
                                     <span className="tagline">Welcome to my Portfolio</span>
                                     <h1>{`Hi! I'm Michael `} <span className="wrap">{text}</span></h1>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                    </p>
+                                    My background is nothing but an example of my hard work, motivation and dedication to the work that I do. Serving in the United States Army has taught me how to overcome and adapt to a constantly changing environment. As a Junior Dev,
+                                    with recently graduating a software engineering boot camp with the University of Minnesota, I have developed the fundamental building blocks in Full Stack engineering and computer science.
+                                        </p>
                                     <HashLink to='#connect'>
                                         <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
                                     </HashLink>

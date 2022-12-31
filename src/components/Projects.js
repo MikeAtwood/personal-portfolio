@@ -43,19 +43,21 @@ export const Projects = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__bounce" : ""}>
                   <h2>Projects</h2>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>Just a few of the projects I've completed since the beginning of my Software Engineering journey. Appplications created with modern technology and best practices, coupled with the use of
+                    MongoDB, Express.js, React.js, Node.js, and many more. 
+                  </p>
                 </div>}
             </TrackVisibility>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Quick View</Nav.Link>
+                  <Nav.Link eventKey="first">1</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Game Development</Nav.Link>
+                  <Nav.Link eventKey="second">2</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Coming Soon!</Nav.Link>
+                  <Nav.Link eventKey="third">3</Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content>

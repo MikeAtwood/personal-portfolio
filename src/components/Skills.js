@@ -39,7 +39,7 @@ export const Skills = () => {
                             <h2>
                                 Skills
                             </h2>
-                            <p>Using today's best methods and practices.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                            <p>Using today's best methods and practices.<br></br> Future Development goals include learning C++ and Unity.</p>
                             <Carousel responsive={responsive} Infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src={meter1} alt="html" /> 
