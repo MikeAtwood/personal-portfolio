@@ -13,7 +13,7 @@ export const Contact = () => {
                     </Col>
                     <Col md={6}>
                         <h2>Get In Touch</h2>
-                        <form name="contact" method="post">
+                        <form name="contact" method="post" netlify>
                             <p>
                                 <label htmlFor="name">Name</label> <br />
                                 <input type="text" id="name" name="name" required />
