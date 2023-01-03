@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
-import controllerImg from "../assets/img/controller.png";
+import controllerImg from "../assets/img/controller.JPG";
 import 'animate.css';
+import TrackVisibility from "react-on-screen";
 
 export const Contact = () => {
 
@@ -8,10 +9,13 @@ export const Contact = () => {
         <section className="contact" id="connect">
             <Container>
                 <Row className="align-items-center">
-                    <Col md={6}>
-                        <img src={controllerImg} alt="Contact Us" />
+                    <Col md={6}> 
+                        <img src={controllerImg} class="rounded-circle img-fluid" alt="Contact Us" />
                     </Col>
                     <Col md={6}>
+                        <TrackVisibility>
+                        {({ isVisible }) =>
+                        <div className={isVisible ? "animate__animated animate__bounce" : ""}>
                         <h2>Get In Touch</h2>
                         <form name="contact" method="post" netlify netlify-honeypot="bot-field">
                         <input type="hidden" name="form-name" value="contact" />
@@ -31,7 +35,10 @@ export const Contact = () => {
                                 <input type="submit" value="Submit message" />
                             </p>
                         </form>
-                    </Col>
+                        </div>}
+                        </TrackVisibility>
+                        </Col>
+                   
                 </Row>
             </Container>
         </section>
