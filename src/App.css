@@ -365,11 +365,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 56%;
 }
 .project .nav.nav-pills {
-  width: 72%;
+  width: 90%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
+}
+.project .nav.nav-pills img {
+	width: auto;
+  height: auto;
+	z-index: 1;
+	transition: 0.3s ease-in-out;
 }
 .project .nav.nav-pills .nav-item {
   width: 33.33333%;
@@ -468,6 +474,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 35%;
   right: 0;
   z-index: -4;
+}
+.tab3 {
+  width: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /************ Projects Css ************/

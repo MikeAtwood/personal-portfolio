@@ -55,11 +55,14 @@ export const Banner = () => {
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__bounce" : ""}>
                                     <span className="tagline">Welcome to my Portfolio</span>
-                                    <h1>{`Hi! I'm Michael `} <span className="wrap">Frontend Developer</span></h1>
+                                    <h1>{`Hi! I'm Michael Atwood `} <span className="wrap">Frontend Developer</span></h1>
                                     <p>
-                                    My background is nothing but an example of my hard work, motivation and dedication to the work that I do. Serving in the United States Army has taught me how to overcome and adapt to a constantly changing environment. As a Junior Dev,
-                                    With recently graduating a software engineering boot camp with the University of Minnesota, I have developed the fundamental building blocks in Full Stack engineering and computer science.
-                                        </p>
+                                    I am a web developer with an array of knowledge in many different front end and back end languages, 
+                                    responsive frameworks, databases, and best code practices. My objective is simply to be the best web developer 
+                                    that I can be and to contribute to the technology industry all that I know and can do. I recently graduated from a software engineering 
+                                    bootcamp with the University of Minnesota and look forward to continously perfecting my skills as a junior developer.
+                                    Happy Coding!
+                                   </p>
                                     <HashLink to='#connect'>
                                         <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
                                     </HashLink>
