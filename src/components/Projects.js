@@ -7,7 +7,7 @@ import projImg4 from "../assets/img/projImg4.png";
 import tab1 from "../assets/img/tab1.png";
 import tab2 from "../assets/img/tab2.png";
 import tab3 from "../assets/img/tab3.png";
-import eng from "../assets/img/eng.png";
+import unity from "../assets/img/unitylogo.png";
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
 
@@ -82,15 +82,16 @@ export const Projects = () => {
                   </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
-                  <a href="https://kyleatwood.netlify.app/"><img src={projImg4} alt="" /></a>
+                  <div className="proj2">
+                    <a href="https://kyleatwood.netlify.app/" target="_blank" rel="noreferrer"><img src={projImg4} alt="" /></a>
+                  </div>
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
-                  <div className="tab3"><img src={eng} alt=""></img></div>
+                  <div className="tab3"><img src={unity} alt=""></img></div>
                   <p>
                     Gaming has been a passion of mine since as far back as i can remember. During the course of 2023, my brother Kyle Atwood, and I are going
-                    to explore the in's and out's of video game development. With Unreal Engine 5 being the latest installment from Epic Games, it's definitely
-                    on our list of engines to build off of. 
-                    Our plan for 2023 is to start small and develop a series of mobile games, to build up to our dream of becoming indie video game developers.
+                    to explore the in's and out's of video game development using Unity.
+                    As a hobby, Our plan for 2023 is to start small and develop a series of mobile games, to build up to our dream of becoming indie video game developers.
                   </p>
                 </Tab.Pane>
               </Tab.Content>
