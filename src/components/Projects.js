@@ -5,6 +5,7 @@ import projImg2 from "../assets/img/projImg2.jpeg";
 import projImg3 from "../assets/img/projImg3.jpeg";
 import projImg4 from "../assets/img/projImg4.png";
 import projImg5 from "../assets/img/etch.png";
+import projImg6 from "../assets/img/rps.png";
 import tab1 from "../assets/img/tab1.png";
 import tab2 from "../assets/img/tab2.png";
 import tab3 from "../assets/img/tab3.png";
@@ -22,6 +23,18 @@ export const Projects = () => {
       item: "https://kyleatwood.netlify.app/",
     },
     {
+      title: "Etch-a-Sketch",
+      description: "Draw",
+      imgUrl: projImg5,
+      item: 'https://etch-a-sketch-n-shake.netlify.app/',
+    },
+    {
+      title: "Rock Paper Scissors",
+      description: "Classics",
+      imgUrl: projImg6,
+      item: 'https://classic-rock-paper-scissors.netlify.app/'
+    },
+    {
       title: "ExamCram",
       description: "Flash Cards",
       imgUrl: projImg1,
@@ -36,12 +49,7 @@ export const Projects = () => {
       description: "Cat Adoption",
       imgUrl: projImg3,
     },
-    {
-      title: "Etch-a-Sketch",
-      description: "Draw",
-      imgUrl: projImg5,
-      item: 'https://etch-a-sketch-n-shake.netlify.app/',
-    }
+    
   ];
 
 
