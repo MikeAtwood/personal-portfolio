@@ -9,7 +9,6 @@ import projImg6 from "../assets/img/rps.png";
 import tab1 from "../assets/img/tab1.png";
 import tab2 from "../assets/img/tab2.png";
 import tab3 from "../assets/img/tab3.png";
-import unity from "../assets/img/unitylogo.png";
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
 
@@ -103,12 +102,7 @@ export const Projects = () => {
                   </div>
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
-                  <div className="tab3"><img src={unity} alt=""></img></div>
-                  <p>
-                    Gaming has been a passion of mine since as far back as i can remember. During the course of 2023, my brother Kyle Atwood, and I are going
-                    to explore the in's and out's of video game development using Unity.
-                    As a hobby, Our plan for 2023 is to start small and develop a series of mobile games, to build up to our dream of becoming indie video game developers.
-                  </p>
+                  
                 </Tab.Pane>
               </Tab.Content>
             </Tab.Container>
