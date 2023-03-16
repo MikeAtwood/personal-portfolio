@@ -1,6 +1,6 @@
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard.js";
-import projImg1 from "../assets/img/projImg1.jpeg";
+import projImg1 from "../assets/img/calc.png";
 import projImg2 from "../assets/img/projImg2.jpeg";
 import projImg3 from "../assets/img/projImg3.jpeg";
 import projImg4 from "../assets/img/projImg4.png";
@@ -35,9 +35,10 @@ export const Projects = () => {
       item: 'https://classic-rock-paper-scissors.netlify.app/'
     },
     {
-      title: "ExamCram",
-      description: "Flash Cards",
+      title: "Basic Calculator",
+      description: "Crunch Those Numbers",
       imgUrl: projImg1,
+      item: 'https://basic-color-calculator.netlify.app/'
     },
     {
       title: "Take A Hike",
