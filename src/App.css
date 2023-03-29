@@ -434,7 +434,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-images {
   width: 100%;
-  height: auto;
+  height: 250px;
 }
 .proj-imgbx::before {
   content: "";
