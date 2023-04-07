@@ -63,7 +63,7 @@ export const Banner = () => {
                                     bootcamp with the University of Minnesota and look forward to continously perfecting my skills as a junior developer.
                                     Happy Coding!
                                    </p>
-                                    <HashLink to='#connect'>
+                                    <HashLink to='#connect' style={{ textDecoration: 'none' }}>
                                         <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
                                     </HashLink>
                                 </div>}
