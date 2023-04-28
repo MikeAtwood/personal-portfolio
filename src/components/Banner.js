@@ -54,7 +54,7 @@ export const Banner = () => {
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__bounce" : ""}>
-                                    <span className="tagline">Welcome to my Portfolio</span>
+                                    {/*<span className="tagline">Welcome to my Portfolio</span>*/}
                                     <h1>{`Hi! I'm Michael Atwood `} <span className="wrap">Frontend Developer</span></h1>
                                     <p>
                                     I am a web developer with an array of knowledge in many different front end and back end languages, 

@@ -496,6 +496,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: auto;
 }
 
+.proj-txtx a {
+  color: white;
+  text-decoration: none;
+}
+
+.proj-txtx a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+
 /************ Projects Css ************/
 .contact {
   padding: 50px 0 50px 0;
