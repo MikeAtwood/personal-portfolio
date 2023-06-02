@@ -39,36 +39,29 @@ export const Skills = () => {
                             <h2>
                                 Skills
                             </h2>
-                            <p>Using today's best methods and practices.<br></br> Future Development goals include learning C++ and Unity.</p>
+                            <p><br></br> </p>
                             <Carousel responsive={responsive} Infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src={meter1} alt="html" /> 
                                     <h5>HTML5</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meter2} alt="javas" />
-                                    <h5>JavaScript</h5>
-                                </div>
+                                </div> 
                                 <div className="item">
                                     <img src={meter3} alt="css" />
                                     <h5>CSS3</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter4} alt="node" />
-                                    <h5>Node.js</h5>
+                                    <img src={meter2} alt="javas" />
+                                    <h5>JavaScript</h5>
                                 </div>
-                                <div className="item">
-                                    <img src={meter5} alt="mongo" />
-                                    <h5>MongoDB</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meter6} alt="graphql" />
-                                    <h5>GraphQL</h5>
-                                </div>
-                                <div className="item">
+                               <div className="item">
                                     <img src={meter7} alt="react" />
                                     <h5>React</h5>
                                 </div>
+                                <div className="item">
+                                    <img src={meter4} alt="node" />
+                                    <h5>Node.js</h5>
+                                </div>
+                                
                                 <div className="item">
                                     <img src={meter8} alt="express" />
                                     <h5>Express.js</h5>

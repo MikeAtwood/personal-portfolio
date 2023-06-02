@@ -15,7 +15,7 @@ export const Contact = () => {
                     <Col md={6}>
                         <TrackVisibility>
                         {({ isVisible }) =>
-                        <div className={isVisible ? "animate__animated animate__bounce" : ""}>
+                        <div>
                         <h2>Get In Touch</h2>
                         <form name="contact" method="post" netlify netlify-honeypot="bot-field">
                         <input type="hidden" name="form-name" value="contact" />

@@ -60,7 +60,7 @@ export const Projects = () => {
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__bounce" : ""}>
+                <div>
                   <h2>Projects</h2>
                   <p>
                     Just a few of the projects I've completed since the beginning of my Software Engineering journey.
